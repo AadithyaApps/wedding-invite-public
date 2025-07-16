@@ -2,7 +2,7 @@ name: Cleanup Published Invites
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Every 1 minute
+    - cron: '*/5 * * * *'  # Every 1 minute
   workflow_dispatch:
 
 jobs:
