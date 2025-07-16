@@ -12,5 +12,4 @@ jobs:
     steps:
       - name: Call Cleanup API
         run: |
-          curl -X GET https://wedding-invite-backend-r0zm.onrender.com/cleanup 
-          
+          curl --fail --silent --show-error --location --request GET 'https://wedding-invite-backend-r0zm.onrender.com/cleanup'
